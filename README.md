@@ -15,14 +15,19 @@ Create database
   
     create database register;
 
-Create table
+Create table admin
 
-    create table user(email varchar(30),password varchar(30),password2 varchar(30), omega varchar(10),sap varchar(10),oracle varchar(10));
+	create table admin(emaiÃl varchar(30),password(30));
+
+
+Create table user
+
+    create table user(email varchar(30),password varchar(30));
 
 Install Project
 _______________________________
 
-  git clone https://github.com/marcko/sesionesphp.git
+  git clone https://github.com/marcko/tareaprog.git
 
 or 
 
